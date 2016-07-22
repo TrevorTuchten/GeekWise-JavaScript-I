@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Manager App (Demo) | TNTgenesis Web Design Studio</title>
+<meta name="description" content="Trevor Tuchten | Web Developer Available for Hire" />
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Task Manager App (Demo) | TNTgenesis Web Design Studio">
+    <meta itemprop="description" content="Trevor Tuchten | Web Developer Available for Hire">
+    <meta itemprop="image" content="https://67.media.tumblr.com/37351ec39de4956cafbf977c6697dc63/tumblr_o34jr0R7ML1v4ifixo1_540.png">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@tnt_genesis_">
+    <meta name="twitter:title" content="Task Manager App (Demo) | TNTgenesis Web Design Studio">
+    <meta name="twitter:description" content="Trevor Tuchten | Web Developer Available for Hire">
+    <meta name="twitter:creator" content="@tnt_genesis_">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="https://67.media.tumblr.com/37351ec39de4956cafbf977c6697dc63/tumblr_o34jr0R7ML1v4ifixo1_540.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Task Manager App (Demo) | TNTgenesis Web Design Studio" />
+    <meta property="og:url" content="http://TrevorTuchten.github.io/bitwise/ToDoApp/" />
+    <meta property="og:image" content="https://67.media.tumblr.com/37351ec39de4956cafbf977c6697dc63/tumblr_o34jr0R7ML1v4ifixo1_540.png" />
+    <meta property="og:description" content="Trevor Tuchten | Web Developer Available for Hire" />
+    <meta property="og:site_name" content="TNTgenesis Web Design Studio | Inspiring Web Innovations" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- Include My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  
+</head>
+<body>
+
+  <h1>Trev's Task Manager</h1>
+
+  <div id="EditWindowDiv">
+    <div class="input-group">
+      <input type="text" id="TaskInput" class="form-control" placeholder="New Task...">
+      <span class="input-group-btn">
+      <button type="button" id="TaskButton" class="btn">Go!</button>
+      </span>
+      <input type="text" id="TaskID" style="display:none" value="0">
+    </div><!-- /input-group -->
+  </div>
+
+  <div id="ListDiv">
+    <ol id="ListNode" class="rounded-list"></ol>
+    <button type="button" id="NewTaskButton" class="btn">Add Task</button>
+  </div>
+
+  
+  <!-- Include minified JQuery JS -->
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+  <!-- Include  minified Bootstrap JS -->
+  <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+  <!-- Include My JS -->
+  <script type="text/javascript" src="js/scripts.js" ></script>
+</body>
+</html>
